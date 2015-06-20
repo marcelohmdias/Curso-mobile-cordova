@@ -1,0 +1,18 @@
+
+    <div class="col-xs-12">
+        <div class="scrollable-content">
+            <div class="list-group" ng-repeat="candidato in candidatos" ng-model="candidato">
+                <a class="list-group-item" href="" ng-click="goCandidato(candidato.Id)">
+                    <div class="media-left" style="width:60px;">
+                        <div class="img-circle">
+                            <img class="img-circle" src="{{ candidato.Foto }}" alt="{{ candidato.NomeCompleto }}" height="50" width="50">
+                        </div>
+                    </div>
+                    <div class="media-right">
+                        <strong class="text-primary">{{ candidato.NomeCandidato }}</strong><br>
+                        {{ candidato.Cargo }} - {{ candidato.PartidoSigla }}
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>

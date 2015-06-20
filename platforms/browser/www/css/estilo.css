@@ -1,0 +1,46 @@
+body {
+    padding: 65px 0 0 0;
+}
+
+.topo-app {
+    background-color: #337ab5;
+    border-bottom: 2px solid #184c77;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* ======== TABS: ======== */
+.tabs,
+.tabs li {
+    margin: 0;
+    padding: 0;
+}
+
+.tabs {
+    float: left;
+    width: 100%;
+}
+
+ul.tabs li {
+    background-color: #337ab5;
+    color: #fff;
+    float: left;
+    font-family: Arial;
+    list-style: none;
+    padding: 2%;
+    text-align: center;
+    width: 50%;
+}
+
+ul.tabs li.current {
+    background-color: #0c5796;
+    color: #fff;
+}
+
+.click-tabs {
+    background-color: #184c77 !important;;
+}
+/* ======== :TABS ======== */
